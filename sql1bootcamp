@@ -1,0 +1,6 @@
+CREATE TABLE todo_list (task_id INTEGER PRIMARY KEY, task_name VARCHAR, description VARCHAR);
+INSERT INTO todo_list VALUES (1, "Wash the dishes", is completed);
+INSERT INTO todo_list VALUES (2, "vacuuming", not completed);
+INSERT INTO todo_list VALUES (3, "Learn some stuff on KA", completed);
+
+
